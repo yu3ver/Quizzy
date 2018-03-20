@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Quizzy</string>
+    <string name="label">Kiwi Kwiz</string>
+
+    <string name="banner_welcome1">the KIWI KWIZ</string>
+    <string name="banner_welcome2">How well do you know New Zealand?\nYou\'ll have 20 seconds to
+        attempt each question.\n\nPress START to begin.</string>
+    <string name="banner_summary">Well done. You made it to the end. Press GET MY GRADE to view the
+        answers and your result.</string>
+    <string name="banner_summary_answers">Share your result.\nPress RETRY to try again.</string>
+
+    <string name="question1">Q1: What is the capital city of New Zealand? (Choose one)</string>
+    <string name="question2">Q2: What is \"Haka\"? (Choose all that apply)</string>
+    <string name="question3">Q3: What is the name of the New Zealand national cricket squad?</string>
+    <string name="question4">Q4: This is the flag of New Zealand. (TRUE or FALSE)</string>
+
+    <string name="radio1">Auckland</string>
+    <string name="radio2">Hamilton</string>
+    <string name="radio3">Christchurch</string>
+    <string name="radio4">Wellington</string>
+    <string name="checkbox1">Popular New Zealand delicacy</string>
+    <string name="checkbox2">Maori war dance</string>
+    <string name="checkbox3">New Zealand rock band</string>
+    <string name="checkbox4">Seen at rugby matches</string>
+    <string name="hint_enter_answer">Enter answer here</string>
+    <string name="radio_true">true</string>
+    <string name="radio_false">false</string>
+
+    <string name="answer1">A1: Founded in 1865, Wellington is the capital city of New Zealand. wellingtonnz.com</string>
+    <string name="answer2">A2: The Haka is a native Maori war dance. wikipedia.org/wiki/Haka
+        It is also performed by the \"All Blacks\" before New Zealand rugby matches. allblacks.com/Teams/Haka</string>
+    <string name="answer3">A3: The Blackcaps. nzc.nz</string>
+    <string name="answer3_required">blackcaps</string>
+    <string name="answer4">A4: FALSE. That was Australia\'s flag. New Zealand\'s flag is similar and is shown below.
+        wikipedia.org/wiki/New_Zealand</string>
+
+    <string name="image_main">nz fern</string>
+    <string name="image_share">share</string>
+    <string name="image_true_false">australia flag</string>
+    <string name="image_answer1">wellington</string>
+    <string name="image_answer2">haka</string>
+    <string name="image_answer3">blackcaps</string>
+    <string name="image_answer4">new zealand flag</string>
+
+    <string name="toast_backbutton_disabled">No turning back now</string>
+    <string name="toast_correct">Correct</string>
+    <string name="toast_incorrect">Incorrect</string>
+    <string name="toast_incomplete">Please answer to proceed</string>
+    <string name="toast_times_up">Time expired</string>
+    <string name="toast_result">Your result:\ </string>
+
+    <string name="button_start">start</string>
+    <string name="button_next">next question</string>
+    <string name="button_grade">get my grade</string>
+    <string name="button_retry">retry</string>
+
+    <string name="share_result">share result</string>
+    <string name="send_result_i_got">Hey, I got\ </string>
+    <string name="send_result_you_got">You got\ </string>
+    <string name="send_result_of">\ of\ </string>
+    <string name="send_result_correct">\ correct on the Kiwi Kwiz!\ </string>
+</resources>

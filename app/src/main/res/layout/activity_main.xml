@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryLight"
+    android:orientation="vertical"
+    android:padding="@dimen/dp_standard"
+    tools:context="com.example.android.quizzy.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="@dimen/dp_standard"
+        android:layout_weight="1"
+        android:contentDescription="@string/image_main"
+        android:scaleType="centerCrop"
+        android:src="@drawable/fern_nz" />
+
+    <TextView
+        style="@style/layout_welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/banner_welcome1"
+        android:textSize="@dimen/sp_text_extra_large" />
+
+    <TextView
+        style="@style/layout_welcome"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/banner_welcome2"
+        android:textSize="@dimen/sp_text_medium" />
+
+    <Button
+        android:id="@+id/button_bottom"
+        style="@style/button_bottom"
+        android:onClick="startQuiz"
+        android:text="@string/button_start" />
+
+</LinearLayout>
