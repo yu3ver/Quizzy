@@ -10,29 +10,32 @@
     <string name="banner_summary_answers">Share your result.\nPress RETRY to try again.</string>
 
     <string name="question1">Q1: What is the capital city of New Zealand? (Choose one)</string>
-    <string name="question2">Q2: What is \"Haka\"? (Choose all that apply)</string>
+    <string name="question2">Q2: What is \"haka?\" (Choose all that apply)</string>
     <string name="question3">Q3: What is the name of the New Zealand national cricket squad?</string>
     <string name="question4">Q4: This is the flag of New Zealand. (TRUE or FALSE)</string>
 
-    <string name="radio1">Auckland</string>
-    <string name="radio2">Hamilton</string>
-    <string name="radio3">Christchurch</string>
-    <string name="radio4">Wellington</string>
-    <string name="checkbox1">Popular New Zealand delicacy</string>
-    <string name="checkbox2">Maori war dance</string>
-    <string name="checkbox3">New Zealand rock band</string>
-    <string name="checkbox4">Seen at rugby matches</string>
-    <string name="hint_enter_answer">Enter answer here</string>
-    <string name="radio_true">true</string>
-    <string name="radio_false">false</string>
-
     <string name="answer1">A1: Founded in 1865, Wellington is the capital city of New Zealand. wellingtonnz.com</string>
-    <string name="answer2">A2: The Haka is a native Maori war dance. wikipedia.org/wiki/Haka
+    <string name="answer2">A2: The haka is a native Māori war dance. wikipedia.org/wiki/Haka
         It is also performed by the \"All Blacks\" before New Zealand rugby matches. allblacks.com/Teams/Haka</string>
     <string name="answer3">A3: The Blackcaps. nzc.nz</string>
     <string name="answer3_required">blackcaps</string>
     <string name="answer4">A4: FALSE. That was Australia\'s flag. New Zealand\'s flag is similar and is shown below.
         wikipedia.org/wiki/New_Zealand</string>
+
+    <string name="radio1">Auckland</string>
+    <string name="radio2">Hamilton</string>
+    <string name="radio3">Christchurch</string>
+    <string name="radio4">Wellington</string>
+
+    <string name="checkbox1">Popular New Zealand delicacy</string>
+    <string name="checkbox2">Māori war dance</string>
+    <string name="checkbox3">New Zealand rock band</string>
+    <string name="checkbox4">Seen at rugby matches</string>
+
+    <string name="hint_enter_answer">Enter answer here</string>
+
+    <string name="radio_true">true</string>
+    <string name="radio_false">false</string>
 
     <string name="image_main">nz fern</string>
     <string name="image_share">share</string>
