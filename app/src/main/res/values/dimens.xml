@@ -7,5 +7,5 @@
     <dimen name="sp_text_small">20sp</dimen>
     <dimen name="sp_text_medium">24sp</dimen>
     <dimen name="sp_text_large">36sp</dimen>
-    <dimen name="sp_text_extra_large">50sp</dimen>
+    <dimen name="sp_text_extra_large">48sp</dimen>
 </resources>
