@@ -2,6 +2,7 @@ package com.example.android.quizzy;
 
 import android.content.Intent;
 import android.os.CountDownTimer;
+import android.support.v4.content.res.ResourcesCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Gravity;
@@ -21,6 +22,18 @@ public class CheckBoxActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_check_box);
+
+        // All the checkboxes.
+        CheckBox checkbox1 = findViewById(R.id.checkbox1);
+        CheckBox checkbox2 = findViewById(R.id.checkbox2);
+        CheckBox checkbox3 = findViewById(R.id.checkbox3);
+        CheckBox checkbox4 = findViewById(R.id.checkbox4);
+
+        // Setting font here due to bug number https://issuetracker.google.com/issues/63250768
+        checkbox1.setTypeface(ResourcesCompat.getFont(this, R.font.fira_sans));
+        checkbox2.setTypeface(ResourcesCompat.getFont(this, R.font.fira_sans));
+        checkbox3.setTypeface(ResourcesCompat.getFont(this, R.font.fira_sans));
+        checkbox4.setTypeface(ResourcesCompat.getFont(this, R.font.fira_sans));
 
         Bundle bundleExtras = getIntent().getExtras();
         if (bundleExtras != null) {

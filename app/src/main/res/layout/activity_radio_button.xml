@@ -24,7 +24,6 @@
             android:id="@+id/banner_question"
             style="@style/layout_header"
             android:layout_marginBottom="@dimen/dp_standard"
-
             android:text="@string/question1" />
 
         <View style="@style/view_divider_horizontal" />

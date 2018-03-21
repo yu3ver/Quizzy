@@ -2,6 +2,7 @@ package com.example.android.quizzy;
 
 import android.content.Intent;
 import android.os.CountDownTimer;
+import android.support.v4.content.res.ResourcesCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Gravity;
@@ -21,6 +22,14 @@ public class TrueFalseActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_true_false);
+
+        // All the radio buttons.
+        RadioButton radioTrue = findViewById(R.id.radio_true);
+        RadioButton radioFalse = findViewById(R.id.radio_false);
+
+        // Setting font here due to bug number https://issuetracker.google.com/issues/63250768
+        radioTrue.setTypeface(ResourcesCompat.getFont(this, R.font.fira_sans));
+        radioFalse.setTypeface(ResourcesCompat.getFont(this, R.font.fira_sans));
 
         Bundle bundleExtras = getIntent().getExtras();
         if (bundleExtras != null) {

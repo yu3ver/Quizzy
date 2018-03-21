@@ -2,6 +2,7 @@ package com.example.android.quizzy;
 
 import android.content.Intent;
 import android.os.CountDownTimer;
+import android.support.v4.content.res.ResourcesCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Gravity;
@@ -21,6 +22,18 @@ public class RadioButtonActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_radio_button);
+
+        // All the radio buttons.
+        RadioButton radio1 = findViewById(R.id.radio1);
+        RadioButton radio2 = findViewById(R.id.radio2);
+        RadioButton radio3 = findViewById(R.id.radio3);
+        RadioButton radio4 = findViewById(R.id.radio4);
+
+        // Setting font here due to bug number https://issuetracker.google.com/issues/63250768
+        radio1.setTypeface(ResourcesCompat.getFont(this, R.font.fira_sans));
+        radio2.setTypeface(ResourcesCompat.getFont(this, R.font.fira_sans));
+        radio3.setTypeface(ResourcesCompat.getFont(this, R.font.fira_sans));
+        radio4.setTypeface(ResourcesCompat.getFont(this, R.font.fira_sans));
 
         Bundle bundleExtras = getIntent().getExtras();
         if (bundleExtras != null) {
