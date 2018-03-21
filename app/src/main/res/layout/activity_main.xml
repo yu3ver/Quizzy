@@ -35,7 +35,6 @@
     <Button
         android:id="@+id/button_bottom"
         style="@style/button_bottom"
-        android:onClick="startQuiz"
         android:text="@string/button_start" />
 
 </LinearLayout>
