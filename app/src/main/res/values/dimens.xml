@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="dp_standard">16dp</dimen>
-    <dimen name="dp_small">8dp</dimen>
     <dimen name="dp_very_small">4dp</dimen>
     <dimen name="dp_zero">0dp</dimen>
     <dimen name="sp_text_small">20sp</dimen>

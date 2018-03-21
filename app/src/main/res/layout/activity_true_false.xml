@@ -21,28 +21,25 @@
     <TextView
         android:id="@+id/banner_question"
         style="@style/layout_header"
+        android:layout_marginBottom="@dimen/dp_standard"
         android:text="@string/question4" />
 
-    <View
-        style="@style/view_divider_horizontal"
-        android:layout_marginTop="@dimen/dp_standard"
-        android:background="@color/colorAccent" />
+    <View style="@style/view_divider_horizontal" />
 
     <RadioGroup
         android:id="@+id/radio_group"
-        style="@style/layout_horizontal"
-        android:layout_height="wrap_content">
+        style="@style/layout_horizontal">
 
         <RadioButton
             android:id="@+id/radio_true"
-            style="@style/radio_button_standard"
+            style="@style/radio_button_checkbox_standard"
             android:layout_weight="1"
             android:text="@string/radio_true"
             android:textAllCaps="true" />
 
         <RadioButton
             android:id="@+id/radio_false"
-            style="@style/radio_button_standard"
+            style="@style/radio_button_checkbox_standard"
             android:layout_weight="1"
             android:text="@string/radio_false"
             android:textAllCaps="true" />
@@ -57,9 +54,7 @@
         android:contentDescription="@string/image_true_false"
         android:src="@drawable/flag_au" />
 
-    <View
-        style="@style/view_divider_horizontal"
-        android:background="@color/colorAccent" />
+    <View style="@style/view_divider_horizontal" />
 
     <Button
         android:id="@+id/button_bottom"

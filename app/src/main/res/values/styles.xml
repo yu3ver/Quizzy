@@ -46,7 +46,8 @@
 
     <style name="layout_horizontal">
         <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">@dimen/dp_zero</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/dp_standard</item>
         <item name="android:orientation">horizontal</item>
     </style>
 
@@ -58,19 +59,10 @@
         <item name="android:scrollbarDefaultDelayBeforeFade">15000</item>
     </style>
 
-    <style name="radio_button_standard">
+    <style name="radio_button_checkbox_standard">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_margin">@dimen/dp_small</item>
-        <item name="android:fontFamily">@font/fira_sans</item>
-        <item name="android:textColor">@color/colorPrimaryDark</item>
-        <item name="android:textSize">@dimen/sp_text_medium</item>
-    </style>
-
-    <style name="checkbox_standard">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_margin">@dimen/dp_small</item>
+        <item name="android:layout_marginBottom">@dimen/dp_standard</item>
         <item name="android:fontFamily">@font/fira_sans</item>
         <item name="android:textColor">@color/colorPrimaryDark</item>
         <item name="android:textSize">@dimen/sp_text_medium</item>
