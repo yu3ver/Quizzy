@@ -36,6 +36,9 @@ public class SummaryActivity extends AppCompatActivity {
         View buttonView = findViewById(R.id.button_share);
         buttonView.setVisibility(View.VISIBLE);
 
+        View imageView = findViewById(R.id.image_summary);
+        imageView.setVisibility(View.GONE);
+
         View answersView = findViewById(R.id.layout_summary_answers);
         answersView.setVisibility(View.VISIBLE);
 

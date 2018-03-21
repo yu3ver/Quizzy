@@ -16,6 +16,12 @@
         <item name="android:textSize">@dimen/sp_text_medium</item>
     </style>
 
+    <style name="layout_standard_image">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/dp_standard</item>
+    </style>
+
     <style name="layout_welcome">
         <item name="android:gravity">center</item>
         <item name="android:fontFamily">@font/fira_sans_bold</item>
